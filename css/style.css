@@ -7,7 +7,20 @@
     background-color: #151515;
 }
 
+.form {
+    background-color: #0D0D0D;
+    /* height: 600px; */
+}
+
 .selected {
     background-color: #0D0D0D;
-    height: 350px;
+}
+
+.total-color {
+    color: orange;
+}
+
+footer {
+    background-color: #151515;
+    height: 200px;
 }

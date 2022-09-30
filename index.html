@@ -32,11 +32,11 @@
     </header>
     <!-- Header section End -->
     <main class="card-bg">
-        <div class="container">
-            <div class="row pt-5">
-                <div class="col-lg-9">
-                    <div class="row row-cols-lg-3">
-                        <div class="card me-3 text-center bg-dark" style="width: 18rem;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-6 col-sm-12 col-12">
+                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                        <div class="card me-3 text-center bg-dark mt-5" style="width: 18rem;">
                             <img src="image/103946389-GettyImages-531359844.jpg" class="card-img-top img-fluid"
                                 alt="...">
                             <div class="card-body">
@@ -45,7 +45,7 @@
                                 <a href="#" class="btn btn-primary fs-5 px-5">Select</a>
                             </div>
                         </div>
-                        <div class="card me-3 text-center bg-dark" style="width: 18rem;">
+                        <div class="card me-3 text-center bg-dark mt-5" style="width: 18rem;">
                             <img src="image/GettyImages-1189400675.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-white fs-4">Kylian Mbappe</h5>
@@ -53,7 +53,7 @@
                                 <a href="#" class="btn btn-primary fs-5 px-5">Select</a>
                             </div>
                         </div>
-                        <div class="card text-center bg-dark" style="width: 18rem;">
+                        <div class="card text-center bg-dark mt-5" style="width: 18rem;">
                             <img src="image/1960x0.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-white fs-4">Loinel Messi</h5>
@@ -115,17 +115,28 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="selected">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="selected pb-3 mt-5">
                         <h4 class="text-white text-center pt-4">Selected - V</h2>
                     </div>
-                    <div class="mt-5 selected">
-
+                    <div class="mt-5 form text-center">
+                        <h4 class="text-white pt-3">Budget</h3>
+                            <p class="text-white pt-4">Per Player : <input class="px-2" type="text"></p>
+                            <button type="button" class="btn btn-primary btn-lg px-5 mt-2 rounded-0">Calculate</button>
+                            <h4 class="text-white mt-3">Player Expenses : $00</h4>
+                            <p class="text-white pt-4">Manager : <input type="text"></p>
+                            <p class="text-white pt-4">Coach : <input type="text"></p>
+                            <button type="button" class="btn btn-primary btn-lg px-5 mt-2 rounded-0">Calculate
+                                Total</button>
+                            <h4 class="text-white mt-5 pb-5">Total : <span class="total-color">$00</span></h4>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <footer class="text-center text-white mt-1">
+        <p class="pt-5">Copyright @ 2022 All right reserved</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js
     "></script>
