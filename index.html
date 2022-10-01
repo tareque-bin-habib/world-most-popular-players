@@ -115,7 +115,6 @@
                             <div class="card-body">
                                 <h5 class="card-title text-white fs-4">Renata Sanchez</h5>
                                 <p class="card-text text-white py-3">55 Goals ... 103 Assists</p>
-
                             </div>
                             <button class="button">Select</button>
                         </div>
@@ -125,9 +124,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="selected pb-3 mt-5">
                         <h4 class="text-white text-center pt-4">Selected - V</h2>
-                            <ol id="setPlayers">
-
-                            </ol>
+                            <ol class="text-white fs-4" id="setPlayers"></ol>
                     </div>
                     <div class="mt-5 form text-center">
                         <h4 class="text-white pt-3">Budget</h3>
@@ -135,14 +132,17 @@
                                     class="px-2 bg-dark border-light text-white" type="text"></p>
                             <button id="calculate" type="button"
                                 class="btn btn-primary btn-lg px-5 mt-2 rounded-0">Calculate</button>
-                            <h4 class="text-white mt-3">Player Expenses : $ <span class="player-expenses">00</span></h4>
-                            <p class="text-white pt-4">Manager : <input class=" bg-dark border-light text-white"
-                                    type="text"></p>
-                            <p class="text-white pt-4">Coach : <input class=" bg-dark border-light text-white"
-                                    type="text"></p>
-                            <button type="button" class="btn btn-primary btn-lg px-5 mt-2 rounded-0">Calculate
+                            <h4 class="text-white mt-3">Player Expenses : $ <span class="player-expenses"
+                                    id="player-expenses">00</span></h4>
+                            <p class="text-white pt-4">Manager : <input id="manager"
+                                    class=" bg-dark border-light text-white" type="text"></p>
+                            <p class="text-white pt-4">Coach : <input id="coach"
+                                    class=" bg-dark border-light text-white" type="text"></p>
+                            <button id="calculate-total" type="button"
+                                class="btn btn-primary btn-lg px-5 mt-2 rounded-0">Calculate
                                 Total</button>
-                            <h4 class="text-white mt-5 pb-5">Total : <span class="total-color">$ <span>00</span></span>
+                            <h4 class="text-white mt-5 pb-5">Total : <span class="total-color">$ <span
+                                        id="total">00</span></span>
                             </h4>
                     </div>
                 </div>
